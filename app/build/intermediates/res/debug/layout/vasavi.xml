@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:src="@drawable/vcd"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Founded in 1981 by Vasavi Academy of Education, Vasavi College of Engineering represents a rich tradition of excellence in technology-based education. A premier-league institution among the affiliates of Osmania University, Vasavi College of Engineering owes its vision to Sri Pendekanti Venkata Subbaiah, a veteran statesman of Independent India."
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VISION:"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Striving for a symbiosis of technological excellence and human values."
+        android:textColor="#ffffff"
+        android:textSize="15dp"/>
+
+
+</LinearLayout><!-- From: file:/C:/Users/Subham/AndroidStudioProjects/Acumen_IT/app/src/main/res/layout/vasavi.xml -->

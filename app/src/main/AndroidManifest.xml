@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.acumensubham.subham.acumen_it" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/acumenapplogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.eventactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.EVENTACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.vasaviactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.VASAVIACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.aboutactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.ABOUTACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.codeacticity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.CODEACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.logicmagicactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.LOGICMAGICACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.sportsactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.SPORTSACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.kodernanactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.KODERNANACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.mosiacactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.MOSIACACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.cshootactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.CSHOOTACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.tictacactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.TICTACACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.adernalineactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.ADERNALINEACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.chakravyuhactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.CHAKRAVYUHACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.techhuntactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.TECHHUNTACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.techtrinicsactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.TECHTRINICSACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.ladderactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.LADDERACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.cstrikeactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.CSTRIKEACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.orchestrateactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.ORCHESTRATEACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.testurwits"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.TESTURWITS" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.loopactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.LOOPACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.paperactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.PAPERACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.posteractivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.POSTERACTIVITY" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.aboutapp"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.ABOUTAPP" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.sponser"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.SPONSER" />
+
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.contact"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.CONTACT" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acumensubham.subham.acumen_it.dabbler"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.subham.acumen_it.DABBLER" />
+
+
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

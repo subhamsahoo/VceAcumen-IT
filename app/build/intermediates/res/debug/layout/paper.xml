@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/back">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:src="@drawable/papertxt"
+        android:layout_marginLeft="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Technical presentations serve engineering, scientific and high tech purposes, describing advances in technology, problem resolution, product design and project status. In general, technical presentations serve one of two purposes: (1) to inform (e.g., knowledge transfer, classroom instruction) or (2) to persuade (e.g., convincing others to adopt a design approach or accept the results of an evaluation process)."
+        android:id="@+id/textView6"
+        android:textColor="#ffffff"
+        android:textSize="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The topics for paper presentation or technical presentation are there in the official facebook page and the abstract should be submitted in IEEE format"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="13dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:text="ORGANIZERS:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="#ffffff"
+        android:text="Adithya-7416660285"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="#ffffff"
+        android:text="Varshitha"/>
+
+</LinearLayout><!-- From: file:/C:/Users/Subham/AndroidStudioProjects/Acumen_IT/app/src/main/res/layout/paper.xml -->

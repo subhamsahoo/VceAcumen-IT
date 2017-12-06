@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#000000"
+    android:id="@+id/f4">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/acumen"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="120dp"
+        />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/code"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/code"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/logicmagic"
+        android:layout_marginTop="130dp"
+        android:id="@+id/logic"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/sportoholic"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="270dp"
+        android:id="@+id/sports"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/pap"
+        android:layout_marginTop="350dp"
+        android:id="@+id/paper"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/poster"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="270dp"
+        android:id="@+id/poster"/>
+</RelativeLayout><!-- From: file:/C:/Users/Subham/AndroidStudioProjects/Acumen_IT/app/src/main/res/layout/eventactivity.xml -->

@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#000000"
+    >
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/acumen"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="58dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/adrenaline"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/adernaline"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/loop"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/loop"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/techhunt"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="270dp"
+        android:id="@+id/techhunt"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/techtrin"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/techtrins"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ladden"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="270dp"
+        android:id="@+id/ladder"/>
+
+</RelativeLayout><!-- From: file:/C:/Users/Subham/AndroidStudioProjects/Acumen_IT/app/src/main/res/layout-small/sportsactivity.xml -->
